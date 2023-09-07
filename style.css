@@ -322,6 +322,8 @@ margin-bottom: 2rem;
 display: flex;
 justify-content: center;
 flex-direction: column;
+overflow-x: auto; 
+white-space: nowrap;
 }
 
 .article-container {
@@ -348,6 +350,8 @@ cursor: pointer;
 
 #projects {
 position: relative;
+/* display: inline; */
+
 }
 
 .color-container {
@@ -359,6 +363,7 @@ background: rgb(250, 250, 250);
 border-radius: 2rem;
 width: 90%;
 height: 90%;
+
 }
 
 .project-title {
