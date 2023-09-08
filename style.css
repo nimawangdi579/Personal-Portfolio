@@ -270,14 +270,16 @@ margin-top: 2rem;
 .about-details-container {
 justify-content: center;
 flex-direction: column;
+padding-bottom: 100px;
 }
 .about-containers, .about-details-container {
 display: flex;
 }
 
-.about-pic {
-border-radius: 2rem;
+.text-container {
+    text-align: justify;
 }
+
 
 .arrow {
 position: absolute;
@@ -293,17 +295,13 @@ border-radius: 2rem;
 border: rgb(53, 53, 53) 0.1rem solid;
 border-color: rgb(163, 163, 163);
 text-align: center;
+
 }
 
 .section-container {
 gap: 4rem;
 height: 80%;
-}
-
-.section__pic-container {
-height: 400px;
-width: 400px;
-margin: auto 0;
+justify-content: center;
 }
 
 /* experience section */
