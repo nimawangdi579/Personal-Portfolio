@@ -278,6 +278,8 @@ display: flex;
 
 .text-container {
     text-align: justify;
+    font-weight: bold;
+    color: black;
 }
 
 
